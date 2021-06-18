@@ -77,6 +77,21 @@
           },
           pathNamespaces: ['/es', '/de-de', '/ru-ru', '/zh-cn']
         },
+        darklightTheme: {
+          defaultTheme: 'light',
+          siteFont: 'Source Sans Pro,Helvetica Neue,Arial,sans-serif',
+          codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
+          bodyFontSize: '15px',
+          dark: {
+            background: '#191919',
+            highlightColor: '#e96900',
+            codeBackgroundColor: '#202020',
+            codeTextColor: '#b4b4b4',
+          },
+          light: {
+            highlightColor: '#e96900',
+          }
+        },
         plugins: [
           DocsifyCarbon.create('CEBI6KQE', 'docsifyjsorg'),
           function(hook, vm) {
